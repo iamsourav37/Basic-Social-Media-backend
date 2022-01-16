@@ -3,7 +3,13 @@ const app = express();
 const format = require("date-format");
 
 app.get("/", (req, res) => {
-  res.status(200).send("<h1>Hello from Localhost</h1>");
+  res.status(200).json({
+    createdBy: "Sourav Ganguly",
+    courseName: "Pro Backend Developer Bootcamp",
+    instructorName: "Hitesh Choudhary",
+    platformName: "LearnCodeOnline.in",
+    excited: true,
+  });
 });
 
 app.get("/api/v1/instagram", (req, res) => {

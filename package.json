@@ -4,7 +4,7 @@
   "description": "a simple social media backend ()\u001b[B\u001b[A\u001b[Dvery basic)",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "expess",

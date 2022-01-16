@@ -1,0 +1,22 @@
+{
+  "name": "social_media",
+  "version": "1.0.0",
+  "description": "a simple social media backend ()\u001b[B\u001b[A\u001b[Dvery basic)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "expess",
+    "api"
+  ],
+  "author": "Sourav Ganguly",
+  "license": "ISC",
+  "dependencies": {
+    "date-format": "^4.0.2",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
